@@ -1,8 +1,8 @@
-var username = prompt("Enter the username of the person to spam");
+var username = "divinemagic";
 
-var content = prompt("Enter your message");
+var content = "HELLO";
 
-var amount = prompt("Enter the number of times to post the message");
+var amount = "100000000";
 
 function postComment(content, parent_id, commentee_id, username, i) {
   setTimeout(function() {
